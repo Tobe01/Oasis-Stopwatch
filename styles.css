@@ -1,0 +1,70 @@
+/* CSS Codes for Stop watch project */
+
+body {
+  background-image: radial-gradient(circle, rgb(227, 121, 227), purple);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  height: 600px;
+  font-family: poppins;
+  color: white;
+}
+
+.header1 {
+  margin: -35px 0 50px 0;
+  font: 26px bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.sub-container {
+  background-color: purple;
+  padding: 50px 15px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 2px rgba(124, 246, 244, 0.8);
+}
+
+.btn-container {
+  padding-top: 20px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch {
+  padding: 72px 90px;
+  border-radius: 60%;
+  width: 0;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 1px 1px 20px 2px rgba(148, 255, 255, 0.7);
+}
+
+.btn {
+  padding: 16px 22px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 60%;
+  border: none;
+  background-color: rgb(227, 121, 227);
+}
+
+.btn:active {
+  color: black;
+}
+
+.icon {
+  font-size: 23px;
+}
